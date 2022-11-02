@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Layout from './components/Layout'
 import Index, { loader as clientesLoader } from './pages/Index'
 import NuevoCliente, { action as nuevoClienteAction } from './pages/NuevoCliente'
+import { ErrorPages } from "./components/ErrorPages"
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,8 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Index />,
-        loader: clientesLoader
+        loader: clientesLoader,
+        errorElement: <ErrorPages />
       },
       {
         path: "/clientes/nuevo",
