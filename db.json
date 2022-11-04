@@ -1,18 +1,20 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Juan",
-      "telefono": 102013313,
+      "nombre": "Juan Pablo",
+      "empresa": "Codigo Con Juan",
       "email": "juan@juan.com",
-      "empresa": "Codigo Con Juan"
+      "telefono": "102013313",
+      "notas": "nueva nota",
+      "id": 1
     },
     {
-      "id": 2,
       "nombre": "Karen",
-      "telefono": 138198313,
+      "empresa": " Codigo Con Juan",
       "email": "karen@juan.com",
-      "empresa": " Codigo Con Juan"
+      "telefono": "138198313",
+      "notas": "nueva nota",
+      "id": 2
     },
     {
       "id": 3,
@@ -34,14 +36,6 @@
       "telefono": 1398198938,
       "email": "pedro@juan.com",
       "empresa": " Codigo Con Juan"
-    },
-    {
-      "nombre": "paula",
-      "empresa": "código con juan",
-      "email": "pau@paulita.com",
-      "telefono": "4567788",
-      "notas": "el cliente desea un ecomerce",
-      "id": 6
     }
   ]
 }

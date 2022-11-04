@@ -4,7 +4,7 @@ import Formulario from "../components/Formulario"
 import Error from "../components/Error"
 import { agregarCliente } from "../api/clientes"
 
-//funcion para el submit del formulario
+//funcion tipo action  para el submit del formulario
 export const action = async ({ request }) => {
     const formData = await request.formData()
     const datos = Object.fromEntries(formData)
